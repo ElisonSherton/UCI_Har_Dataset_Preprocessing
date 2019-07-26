@@ -83,4 +83,4 @@ required_data = all_data%>%
 sequence = c(1,82,2, 3:81)
 required_data = required_data[,sequence]
 setwd("C:\\Users\\nayak\\Desktop\\Johns_Hopkins_DS\\Getting And Cleaning Data")
-write.table(required_data, file = "Tidy_data.csv", sep = ",", row.names = FALSE)
+write.table(required_data, file = "Tidy_data.txt", row.names = FALSE)
